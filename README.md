@@ -16,3 +16,9 @@ AKA: git clone this repo, go to iterm and import all from schema folder
 3) Install fonts from here:
 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Meslo/L/Regular/complete
 
+4) installing plugins
+
+cd $ZSH_CUSTOM/plugins
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
